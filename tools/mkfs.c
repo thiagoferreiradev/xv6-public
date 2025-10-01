@@ -127,7 +127,7 @@ main(int argc, char *argv[])
   strcpy(de.name, "..");
   iappend(rootino, &de, sizeof(de));
 
-  for(i = 2; i < argc; i++){
+  for(i = 3; i < argc; i++){
     assert(index(argv[i], '/') == 0);
 
     if((fd = open(argv[i], 0)) < 0){
