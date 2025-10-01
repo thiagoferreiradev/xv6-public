@@ -10,7 +10,10 @@ bootblock
 entryother
 initcode
 initcode.out
-kernel
 kernelmemfs
 mkfs
 .gdbinit
+.vscode/
+.ccls-cache
+compile_commands.json
+build/
